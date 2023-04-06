@@ -1,0 +1,245 @@
+{% extends "Restaurant_Balfisot_Order_Base.twig" %}
+
+{% block body %}
+    <nav class="navbar navbar-expand-lg body-tertiary position-relative">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link text-light list-unstyled position-relative nLink1" href="{{ path("Categories") }}">Categories</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light list-unstyled position-relative nLink2 " href="{{ path("Register") }}">Register</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light list-unstyled position-relative nLink3" href="{{ path("Profile") }}">Profile</a>
+                    </li>
+                    <a href= "{{ path('Home') }}"><img class= "nbLogo position-relative" src="/Pictures/Restaurant_Balfisot_Logo_(Picture_version).png"></a>
+                    <li class="nav-item">
+                        <a class="nav-link text-light list-unstyled position-relative nLink4" href="{{ path("Order") }}">Order</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link  text-light list-unstyled position-relative nLink5" href="{{ path("Orders") }}">Orders</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link  text-light list-unstyled position-relative nLink6" href="{{ path("Contact") }}">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light list-unstyled position-relative nLink7" href="{{ path("About Us") }}">About Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="card card39 position-relative">
+        <h1 class= "heading38 position-relative">Order</h1>
+
+        {% for category in categories %}
+        <div class="card-body">
+             {% set headingClass = cycle(['heading39', 'heading40', 'heading41', 'heading42', 'heading43', 'heading44'], loop.index0) %}
+            <h2 class= "{{ headingClass }} position-relative">{{ category.name }}</h2>
+            {# {{ form(OrderForm) }} #}
+            {% set textClass = cycle(['text59', 'text60', 'text61', 'text62', 'text63', 'text64', 'text65', 'text62', 'text63', 'text64'], loop.index0) %}
+            {% for dish in categoryDishes[category.id] %}
+                <h2 class= "{{ textClass }} position-relative">{{ dish.name }}</h2>
+            {% endfor %}
+        </div>
+        {% endfor %}
+        <a href= "{{ path('Orders') }}"><button class="btn btn-dark button1 position-relative">Submit</button></a>
+    </div>
+
+    <div class="input-group mb-3 textbox1 position-relative">
+        <span class="input-group-text button2">+</span>
+        <input type="text" class="form-control" value="0">
+        <span class="input-group-text button3">-</span>
+    </div>
+
+    <div class="input-group mb-3 textbox2 position-relative">
+        <span class="input-group-text button2">+</span>
+        <input type="text" class="form-control" value="0">
+        <span class="input-group-text button3">-</span>
+    </div>
+
+    <div class="input-group mb-3 textbox3 position-relative">
+        <span class="input-group-text button2">+</span>
+        <input type="text" class="form-control" value="0">
+        <span class="input-group-text button3">-</span>
+    </div>
+
+    <div class="input-group mb-3 textbox4 position-relative">
+        <span class="input-group-text button2">+</span>
+        <input type="text" class="form-control" value="0">
+        <span class="input-group-text button3">-</span>
+    </div>
+
+    <div class="input-group mb-3  textbox5 position-relative">
+        <span class="input-group-text button2">+</span>
+        <input type="text" class="form-control" value="0">
+        <span class="input-group-text button3">-</span>
+    </div>
+
+    <div class="input-group mb-3 textbox6 position-relative">
+        <span class="input-group-text button2">+</span>
+        <input type="text" class="form-control" value="0">
+        <span class="input-group-text button3">-</span>
+    </div>
+
+    <div class="input-group mb-3 textbox7 position-relative">
+        <span class="input-group-text button2">+</span>
+        <input type="text" class="form-control" value="0">
+        <span class="input-group-text button3">-</span>
+    </div>
+
+    <div class="input-group mb-3 textbox8 position-relative">
+        <span class="input-group-text button2">+</span>
+        <input type="text" class="form-control" value="0">
+        <span class="input-group-text button3">-</span>
+    </div>
+
+    <div class="input-group mb-3 textbox9 position-relative">
+        <span class="input-group-text button2">+</span>
+        <input type="text" class="form-control" value="0">
+        <span class="input-group-text button3">-</span>
+    </div>
+
+    <div class="input-group mb-3 textbox10 position-relative">
+        <span class="input-group-text button2">+</span>
+        <input type="text" class="form-control" value="0">
+        <span class="input-group-text button3">-</span>
+    </div>
+
+    <div class="input-group mb-3 textbox11 position-relative">
+        <span class="input-group-text button2">+</span>
+        <input type="text" class="form-control" value="0">
+        <span class="input-group-text button3">-</span>
+    </div>
+
+    <div class="input-group mb-3 textbox12 position-relative">
+        <span class="input-group-text button2">+</span>
+        <input type="text" class="form-control" value="0">
+        <span class="input-group-text button3">-</span>
+    </div>
+
+    <div class="input-group mb-3 textbox13 position-relative">
+        <span class="input-group-text button2">+</span>
+        <input type="text" class="form-control" value="0">
+        <span class="input-group-text button3">-</span>
+    </div>
+
+    <div class="input-group mb-3 textbox14 position-relative">
+        <span class="input-group-text button2">+</span>
+        <input type="text" class="form-control" value="0">
+        <span class="input-group-text button3">-</span>
+    </div>
+
+    <div class="input-group mb-3 textbox15 position-relative">
+        <span class="input-group-text button2">+</span>
+        <input type="text" class="form-control" value="0">
+        <span class="input-group-text button3">-</span>
+    </div>
+
+    <div class="input-group mb-3 textbox16 position-relative">
+        <span class="input-group-text button2">+</span>
+        <input type="text" class="form-control" value="0">
+        <span class="input-group-text button3">-</span>
+    </div>
+
+    <div class="input-group mb-3 textbox17 position-relative">
+        <span class="input-group-text button2">+</span>
+        <input type="text" class="form-control" value="0">
+        <span class="input-group-text button3">-</span>
+    </div>
+
+    <div class="input-group mb-3 textbox18 position-relative">
+        <span class="input-group-text button2">+</span>
+        <input type="text" class="form-control" value="0">
+        <span class="input-group-text button3">-</span>
+    </div>
+
+    <div class="input-group mb-3 textbox19 position-relative">
+        <span class="input-group-text button2">+</span>
+        <input type="text" class="form-control" value="0">
+        <span class="input-group-text button3">-</span>
+    </div>
+
+    <div class="input-group mb-3 textbox20 position-relative">
+        <span class="input-group-text button2">+</span>
+        <input type="text" class="form-control" value="0">
+        <span class="input-group-text button3">-</span>
+    </div>
+
+    <div class="input-group mb-3 textbox21 position-relative">
+        <span class="input-group-text button2">+</span>
+        <input type="text" class="form-control" value="0">
+        <span class="input-group-text button3">-</span>
+    </div>
+
+    <div class="input-group mb-3 textbox22 position-relative">
+        <span class="input-group-text button2">+</span>
+        <input type="text" class="form-control" value="0">
+        <span class="input-group-text button3">-</span>
+    </div>
+
+    <div class="input-group mb-3 textbox23 position-relative">
+        <span class="input-group-text button2">+</span>
+        <input type="text" class="form-control" value="0">
+        <span class="input-group-text button3">-</span>
+    </div>
+
+    <div class="input-group mb-3 textbox24 position-relative">
+        <span class="input-group-text button2">+</span>
+        <input type="text" class="form-control" value="0">
+        <span class="input-group-text button3">-</span>
+    </div>
+
+    <div class="input-group mb-3 textbox25 position-relative">
+        <span class="input-group-text button2">+</span>
+        <input type="text" class="form-control" value="0">
+        <span class="input-group-text button3">-</span>
+    </div>
+
+    <div class="input-group mb-3 textbox26 position-relative">
+        <span class="input-group-text button2">+</span>
+        <input type="text" class="form-control" value="0">
+        <span class="input-group-text button3">-</span>
+    </div>
+
+    <div class="input-group mb-3 textbox27 position-relative">
+        <span class="input-group-text button2">+</span>
+        <input type="text" class="form-control" value="0">
+        <span class="input-group-text button3">-</span>
+    </div>
+
+    <div class="input-group mb-3 textbox28 position-relative">
+        <span class="input-group-text button2">+</span>
+        <input type="text" class="form-control" value="0">
+        <span class="input-group-text button3">-</span>
+    </div>
+
+    <div class="input-group mb-3 textbox29 position-relative">
+        <span class="input-group-text button2">+</span>
+        <input type="text" class="form-control" value="0">
+        <span class="input-group-text button3">-</span>
+    </div>
+
+    <div class="input-group mb-3 textbox30 position-relative">
+        <span class="input-group-text button2">+</span>
+        <input type="text" class="form-control" value="0">
+        <span class="input-group-text button3">-</span>
+    </div>
+
+    <footer class= "footer position-relative">
+        <p class= "text3 text-light position-relative">©</p>
+        <p class= "text4 text-light position-relative">2023</p>
+        <img class= "ftLogo position-relative" src="/Pictures/Restaurant_Balfisot_Logo_(Picture_version).png">
+        <a href="https://www.facebook.com/"><img class= "fbLogo position-relative" src= "Pictures/FBLogo.png"></a>
+        <a href="https://www.instagram.com/"><img class= "igLogo position-relative" src= "Pictures/IGLogo.png"></a>
+        <a href= "https://twitter.com/home"><img class= "twLogo position-relative" src="Pictures/TWLogo.png"></a>
+    </footer>
+
+{% endblock %}

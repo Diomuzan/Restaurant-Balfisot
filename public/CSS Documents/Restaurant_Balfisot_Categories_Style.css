@@ -1,0 +1,314 @@
+html, body {
+    background-image: url("/Pictures/Restaurant_Balfisot_Categories_Wallpaper.jpg");
+    background-size: cover;
+}
+
+@font-face {
+    font-family: 'Paneuropa Road';
+    src: url('/Fonts/Paneuropa_Road.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+html, body, h1, h2, h3, h4, h5, h6, p, a {
+    font-family: 'Paneuropa Road';
+}
+
+.navbar {
+    width: 935px;
+    left: 195px;
+}
+
+.nLink1 {
+    font-size: 20px;
+    transition: background-color 0.01s ease-out 1ms;
+    left: 10px;
+}
+
+.nLink1:hover {
+    background-color: lightgrey;
+    border-radius: 13px;
+}
+
+.nLink2 {
+    font-size: 20px;
+    transition: background-color 0.01s ease-out 1ms;
+    left: 35px;
+    top: 0px;
+}
+
+.nLink2:hover {
+    background-color: lightgrey;
+    border-radius: 13px;
+}
+
+.nLink3 {
+    font-size: 20px;
+    transition: background-color 0.01s ease-out 1ms;
+    left: 60px;
+}
+
+.nLink3:hover {
+    background-color: lightgrey;
+    border-radius: 13px;
+}
+
+.nLink4 {
+    font-size: 20px;
+    transition: background-color 0.01s ease-out 1ms;
+    left: 200px;
+}
+
+.nLink4:hover {
+    background-color: lightgrey;
+    border-radius: 13px;
+}
+
+.nLink5 {
+    font-size: 20px;
+    transition: background-color 0.01s ease-out 1ms;
+    left: 225px;
+}
+
+.nLink5:hover {
+    background-color: lightgrey;
+    border-radius: 13px
+}
+
+.nLink6 {
+    font-size: 20px;
+    transition: background-color 0.01s ease-out 1ms;
+    left: 245px;
+}
+
+.nLink6:hover {
+    background-color: lightgrey;
+    border-radius: 13px
+}
+
+.nLink7 {
+    font-size: 20px;
+    transition: background-color 0.01s ease-out 1ms;
+    left: 260px;
+}
+
+.nLink7:hover {
+    background-color: lightgrey;
+    border-radius: 13px
+}
+
+.nbLogo {
+    width: 100px;
+    height: 50px;
+    left: 140px;
+    transition: background-color 0.01s ease-out 1ms
+}
+
+.nbLogo:hover {
+    background-color: lightgrey;
+    border-radius: 13px
+}
+.card3 {
+    width: 300px;
+    height: 250px;
+    top: 100px;
+    left: 10px;
+    border-radius: 30px
+}
+
+.card3:hover {
+    background-color: lightgrey;
+    border-radius: 30px;
+    transition: background-color 0.05s ease-out 1ms
+}
+
+
+.card4 {
+    width: 300px;
+    height: 250px;
+    top: -150px;
+    left: 330px;
+    border-radius: 30px
+}
+
+.card4:hover {
+    background-color: lightgrey;
+    border-radius: 30px;
+    transition: background-color 0.05s ease-out 1ms
+}
+
+.card5 {
+    width: 300px;
+    height: 250px;
+    top: -400px;
+    left: 650px;
+    border-radius: 30px
+}
+
+.card5:hover {
+    background-color: lightgrey;
+    border-radius: 30px;
+    transition: background-color 0.05s ease-out 1ms
+}
+
+.card6 {
+    width: 300px;
+    height: 250px;
+    top: -650px;
+    left: 970px;
+    border-radius: 30px
+}
+
+.card6:hover {
+    background-color: lightgrey;
+    border-radius: 30px;
+    transition: background-color 0.05s ease-out 1ms
+}
+
+.card7 {
+    width: 300px;
+    height: 250px;
+    top: -630px;
+    left: 330px;
+    border-radius: 30px
+}
+
+.card7:hover {
+    background-color: lightgrey;
+    border-radius: 30px;
+    transition: background-color 0.05s ease-out 1ms
+}
+
+.card8 {
+    width: 300px;
+    height: 250px;
+    top: -880px;
+    left: 650px;
+    border-radius: 30px
+}
+
+.card8:hover {
+    background-color: lightgrey;
+    border-radius: 30px;
+    transition: background-color 0.05s ease-out 1ms
+}
+
+.heading3 {
+    display: inline-block;
+    color: black;
+    top: 80px;
+    left: 43px;
+}
+
+.heading4 {
+    display: inline-block;
+    color: black;
+    top: 80px;
+    left: 35px;
+}
+
+.heading5 {
+    display: inline-block;
+    color: black;
+    top: 80px;
+    left: 60px;
+}
+
+.heading6 {
+    display: inline-block;
+    color: black;
+    top: 80px;
+    left: 57px;
+}
+
+.heading7 {
+    display: inline-block;
+    color: black;
+    top: 80px;
+    left: 67px;
+}
+
+.heading8 {
+    display: inline-block;
+    color: black;
+    top: 80px;
+    left: 80px;
+}
+
+footer {
+    height: 66px;
+    width: 935px;
+    top: -32px;
+    left: 195px;
+}
+
+.text3 {
+    font-size: 20px;
+    top: 21px;
+    left: 10px;
+}
+
+.ftLogo {
+    height: 50px;
+    width: 100px;
+    top: -39px;
+    left: 10px;
+    transition: background-color 0.01s ease-out 1ms
+}
+
+.text4 {
+    display: inline-block;
+    font-size: 20px;
+    top: -33px;
+    left: 180px;
+}
+
+.ftLogo:hover {
+    background-color: lightgrey;
+    border-radius: 13px
+}
+
+
+.twLogo {
+    width: 50px;
+    height: 50px;
+    top: -38px;
+    left: 630px;
+    border-radius: 19px;
+    transition: background-color 0.01s ease-out 1ms
+}
+
+.twLogo:hover {
+    background-color: lightgrey;
+    border-radius: 13px
+}
+
+
+.igLogo {
+    width: 50px;
+    height: 50px;
+    top: -38px;
+    left: 620px;
+    transition: background-color 0.01s ease-out 1ms
+}
+
+.igLogo:hover {
+    background-color: lightgrey;
+    border-radius: 13px
+}
+
+
+.fbLogo {
+    width: 43px;
+    height: 43px;
+    top: -38px;
+    left: 610px;
+    border-radius: 9px;
+    transition: background-color 0.01s ease-out 1ms
+}
+
+.fbLogo:hover {
+    background-color: lightgrey;
+    border-radius: 13px;
+}

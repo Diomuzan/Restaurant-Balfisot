@@ -1,0 +1,263 @@
+body {
+    background-image: url("/Pictures/Restaurant_Balfisot_Contact_Wallpaper.jpg");
+    background-size: 1280px;
+    background-repeat: no-repeat;
+}
+
+@font-face {
+    font-family: 'Paneuropa Road';
+    src: url('/Fonts/Paneuropa_Road.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+html, body, h1, h2, h3, h4, h5, h6, p, a {
+    font-family: 'Paneuropa Road';
+}
+
+.navbar {
+    width: 935px;
+    left: 195px;
+}
+
+.nLink1 {
+    font-size: 20px;
+    transition: background-color 0.01s ease-out 1ms;
+    left: 10px;
+}
+
+.nLink1:hover {
+    background-color: lightgrey;
+    border-radius: 13px;
+}
+
+.nLink2 {
+    font-size: 20px;
+    transition: background-color 0.01s ease-out 1ms;
+    left: 35px;
+    top: 0px;
+}
+
+.nLink2:hover {
+    background-color: lightgrey;
+    border-radius: 13px;
+}
+
+.nLink3 {
+    font-size: 20px;
+    transition: background-color 0.01s ease-out 1ms;
+    left: 60px;
+}
+
+.nLink3:hover {
+    background-color: lightgrey;
+    border-radius: 13px;
+}
+
+.nLink4 {
+    font-size: 20px;
+    transition: background-color 0.01s ease-out 1ms;
+    left: 200px;
+}
+
+.nLink4:hover {
+    background-color: lightgrey;
+    border-radius: 13px;
+}
+
+.nLink5 {
+    font-size: 20px;
+    transition: background-color 0.01s ease-out 1ms;
+    left: 225px;
+}
+
+.nLink5:hover {
+    background-color: lightgrey;
+    border-radius: 13px
+}
+
+.nLink6 {
+    font-size: 20px;
+    transition: background-color 0.01s ease-out 1ms;
+    left: 245px;
+}
+
+.nLink6:hover {
+    background-color: lightgrey;
+    border-radius: 13px
+}
+
+.nLink7 {
+    font-size: 20px;
+    transition: background-color 0.01s ease-out 1ms;
+    left: 260px;
+}
+
+.nLink7:hover {
+    background-color: lightgrey;
+    border-radius: 13px
+}
+
+.nbLogo {
+    width: 100px;
+    height: 50px;
+    left: 140px;
+    transition: background-color 0.01s ease-out 1ms
+}
+
+.nbLogo:hover {
+    background-color: lightgrey;
+    border-radius: 13px
+}
+
+.card2 {
+    width: 400px;
+    height: 350px;
+    top: 70px;
+    left: 430px;
+    border-radius: 30px
+
+}
+
+.heading2 {
+    display: inline-block;
+    top: 10px;
+    left: 120px;
+}
+
+.text5 {
+    top: 10px;
+}
+
+.adressIcon {
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    top: 20px;
+    left: 20px;
+}
+
+
+.text6 {
+    top: -3px;
+    left: 55px;
+}
+
+.phoneIcon {
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    top: 10px;
+    left: 20px;
+}
+
+.text7 {
+    top: -15px;
+    left: 55px;
+}
+
+.emailIcon {
+    display: inline-block;
+    height: 25px;
+    width: 25px;
+    top: 1px;
+    left: 20px;
+}
+
+.text8 {
+    top: -26px;
+    left: 56px;
+}
+
+footer {
+    height: 66px;
+    width: 935px;
+    top: 353px;
+    left: 195px;
+}
+
+.text3 {
+    font-size: 20px;
+    top: 21px;
+    left: 10px;
+}
+
+.ftLogo {
+    height: 50px;
+    width: 100px;
+    top: -39px;
+    left: 10px;
+    transition: background-color 0.01s ease-out 1ms
+}
+
+.text4 {
+    display: inline-block;
+    font-size: 20px;
+    top: -33px;
+    left: 180px;
+}
+
+.ftLogo:hover {
+    background-color: lightgrey;
+    border-radius: 13px
+}
+
+
+.twLogo {
+    width: 50px;
+    height: 50px;
+    top: -38px;
+    left: 630px;
+    border-radius: 19px;
+    transition: background-color 0.01s ease-out 1ms
+}
+
+.twLogo:hover {
+    background-color: lightgrey;
+    border-radius: 13px
+}
+
+
+.igLogo {
+    width: 50px;
+    height: 50px;
+    top: -38px;
+    left: 620px;
+    transition: background-color 0.01s ease-out 1ms
+}
+
+.igLogo:hover {
+    background-color: lightgrey;
+    border-radius: 13px
+}
+
+
+.fbLogo {
+    width: 43px;
+    height: 43px;
+    top: -38px;
+    left: 610px;
+    border-radius: 9px;
+    transition: background-color 0.01s ease-out 1ms
+}
+
+.fbLogo:hover {
+    background-color: lightgrey;
+    border-radius: 13px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

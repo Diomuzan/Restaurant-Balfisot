@@ -1,0 +1,480 @@
+body {
+    background-image: url("/Pictures/Restaurant_Balfisot_Order_Wallpaper.jpg");
+    background-size: 1280px;
+    overflow-x: hidden;
+}
+
+@font-face {
+    font-family: 'Paneuropa Road';
+    src: url('/Fonts/Paneuropa_Road.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+html, body, h1, h2, h3, h4, h5, h6, p, a {
+    font-family: 'Paneuropa Road';
+}
+
+.navbar {
+    width: 935px;
+    left: 195px;
+}
+
+.nLink1 {
+    font-size: 20px;
+    transition: background-color 0.01s ease-out 1ms;
+    left: 10px;
+}
+
+.nLink1:hover {
+    background-color: lightgrey;
+    border-radius: 13px;
+}
+
+.nLink2 {
+    font-size: 20px;
+    transition: background-color 0.01s ease-out 1ms;
+    left: 35px;
+    top: 0px;
+}
+
+.nLink2:hover {
+    background-color: lightgrey;
+    border-radius: 13px;
+}
+
+.nLink3 {
+    font-size: 20px;
+    transition: background-color 0.01s ease-out 1ms;
+    left: 60px;
+}
+
+.nLink3:hover {
+    background-color: lightgrey;
+    border-radius: 13px;
+}
+
+.nLink4 {
+    font-size: 20px;
+    transition: background-color 0.01s ease-out 1ms;
+    left: 200px;
+}
+
+.nLink4:hover {
+    background-color: lightgrey;
+    border-radius: 13px;
+}
+
+.nLink5 {
+    font-size: 20px;
+    transition: background-color 0.01s ease-out 1ms;
+    left: 225px;
+}
+
+.nLink5:hover {
+    background-color: lightgrey;
+    border-radius: 13px
+}
+
+.nLink6 {
+    font-size: 20px;
+    transition: background-color 0.01s ease-out 1ms;
+    left: 245px;
+}
+
+.nLink6:hover {
+    background-color: lightgrey;
+    border-radius: 13px
+}
+
+.nLink7 {
+    font-size: 20px;
+    transition: background-color 0.01s ease-out 1ms;
+    left: 260px;
+}
+
+.nLink7:hover {
+    background-color: lightgrey;
+    border-radius: 13px
+}
+
+.nbLogo {
+    width: 100px;
+    height: 50px;
+    left: 140px;
+    transition: background-color 0.01s ease-out 1ms
+}
+
+.nbLogo:hover {
+    background-color: lightgrey;
+    border-radius: 13px
+}
+
+.card39 {
+    width: 1200px;
+    height: 4700px;
+    top: 70px;
+    left: 35px;
+    border-radius: 30px
+}
+
+.heading38 {
+    display: inline-block;
+    top: 40px;
+    left: 550px;
+}
+
+.heading39 {
+    display: inline-block;
+    top: 50px;
+    left: 42px;
+}
+
+.heading40 {
+    display: inline-block;
+    top: 75px;
+    left: 43px;
+}
+
+.heading41 {
+    display: inline-block;
+    top: 120px;
+    left: 44px;
+}
+
+.heading42 {
+    display: inline-block;
+    top: 150px;
+    left: 47px;
+}
+
+.heading43 {
+    display: inline-block;
+    top: 175px;
+    left: 50px;
+}
+
+.heading44 {
+    display: inline-block;
+    top: 200px;
+    left: 55px;
+}
+
+.text59 {
+    top: 60px;
+    left: 42px;
+    margin-top: 50px;
+}
+
+.text60 {
+    top: 100px;
+    left: 43px;
+    margin-top: 50px;
+}
+
+.text61 {
+    top: 120px;
+    left: 45px;
+    margin-top: 50px;
+}
+
+.text62 {
+    top: 150px;
+    left: 48px;
+    margin-top: 50px;
+}
+
+.text63 {
+    top: 175px;
+    left: 52px;
+    margin-top: 50px;
+}
+
+.text64 {
+    top: 200px;
+    left: 55px;
+    margin-top: 50px;
+}
+
+.button1 {
+    width: 200px;
+    top: -15px;
+    left: 540px;
+}
+
+.button65 {
+    color: white;
+}
+
+.textbox1 {
+    width: 125px;
+    top: -4390px;
+    left: 1040px;
+}
+
+.textbox2 {
+    width: 125px;
+    top: -4362px;
+    left: 1040px;
+}
+
+.textbox3 {
+    width: 125px;
+    top: -4325px;
+    left: 1040px;
+}
+
+.textbox4 {
+    width: 125px;
+    top: -4295px;
+    left: 1040px;
+}
+
+.textbox5 {
+    width: 125px;
+    top: -4258px;
+    left: 1040px;
+}
+
+.textbox6 {
+    width: 125px;
+    top: -3858px;
+    left: 1040px;
+}
+
+.textbox7 {
+    width: 125px;
+    top: -3825px;
+    left: 1040px;
+}
+
+.textbox8 {
+    width: 125px;
+    top: -3791px;
+    left: 1040px;
+}
+
+.textbox9 {
+    width: 125px;
+    top: -3757px;
+    left: 1040px;
+}
+
+.textbox10 {
+    width: 125px;
+    top: -3720px;
+    left: 1040px;
+}
+
+.textbox11 {
+    width: 125px;
+    top: -3340px;
+    left: 1040px;
+}
+
+.textbox12 {
+    width: 125px;
+    top: -3306px;
+    left: 1040px;
+}
+
+.textbox13 {
+    width: 125px;
+    top: -3274px;
+    left: 1040px;
+}
+
+.textbox14 {
+    width: 125px;
+    top: -3239px;
+    left: 1040px;
+}
+
+.textbox15 {
+    width: 125px;
+    top: -3205px;
+    left: 1040px;
+}
+
+.textbox16 {
+    width: 125px;
+    top: -2815px;
+    left: 1040px;
+}
+
+.textbox17 {
+    width: 125px;
+    top: -2781px;
+    left: 1040px;
+}
+
+.textbox18 {
+    width: 125px;
+    top: -2746px;
+    left: 1040px;
+}
+
+.textbox19 {
+    width: 125px;
+    top: -2711px;
+    left: 1040px;
+}
+
+.textbox20 {
+    width: 125px;
+    top: -2678px;
+    left: 1040px;
+}
+
+.textbox21 {
+    width: 125px;
+    top: -2293px;
+    left: 1040px;
+}
+
+.textbox22 {
+    width: 125px;
+    top: -2258px;
+    left: 1040px;
+}
+
+.textbox23 {
+    width: 125px;
+    top: -2224px;
+    left: 1040px;
+}
+
+.textbox24 {
+    width: 125px;
+    top: -2190px;
+    left: 1040px;
+}
+
+.textbox25 {
+    width: 125px;
+    top: -2155px;
+    left: 1040px;
+}
+
+.textbox26 {
+    width: 125px;
+    top: -1770px;
+    left: 1040px;
+}
+
+.textbox27 {
+    width: 125px;
+    top: -1736px;
+    left: 1040px;
+}
+
+.textbox28 {
+    width: 125px;
+    top: -1702px;
+    left: 1040px;
+}
+
+.textbox29 {
+    width: 125px;
+    top: -1667px;
+    left: 1040px;
+}
+
+.textbox30 {
+    width: 125px;
+    top: -1633px;
+    left: 1040px;
+}
+
+.button2 {
+    background-color: green;
+    color: white;
+}
+
+.button3{
+    background-color: red;
+    color: white;
+}
+
+footer {
+    height: 66px;
+    width: 935px;
+    top: 353px;
+    left: 195px;
+}
+
+.text3 {
+    font-size: 20px;
+    top: 21px;
+    left: 10px;
+}
+
+.ftLogo {
+    height: 50px;
+    width: 100px;
+    top: -39px;
+    left: 10px;
+    transition: background-color 0.01s ease-out 1ms
+}
+
+.text4 {
+    display: inline-block;
+    font-size: 20px;
+    top: -33px;
+    left: 180px;
+}
+
+.ftLogo:hover {
+    background-color: lightgrey;
+    border-radius: 13px
+}
+
+
+.twLogo {
+    width: 50px;
+    height: 50px;
+    top: -38px;
+    left: 630px;
+    border-radius: 19px;
+    transition: background-color 0.01s ease-out 1ms
+}
+
+.twLogo:hover {
+    background-color: lightgrey;
+    border-radius: 13px
+}
+
+
+.igLogo {
+    width: 50px;
+    height: 50px;
+    top: -38px;
+    left: 620px;
+    transition: background-color 0.01s ease-out 1ms
+}
+
+.igLogo:hover {
+    background-color: lightgrey;
+    border-radius: 13px
+}
+
+
+.fbLogo {
+    width: 43px;
+    height: 43px;
+    top: -38px;
+    left: 610px;
+    border-radius: 9px;
+    transition: background-color 0.01s ease-out 1ms
+}
+
+.fbLogo:hover {
+    background-color: lightgrey;
+    border-radius: 13px;
+}
+
+
+
+
+

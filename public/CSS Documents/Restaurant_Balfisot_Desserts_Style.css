@@ -1,0 +1,293 @@
+body {
+    background-image: url("/Pictures/Restaurant_Balfisot_Desserts_Wallpaper.jpg");
+    background-size: 1280px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-x: hidden;
+}
+
+@font-face {
+    font-family: 'Paneuropa Road';
+    src: url('/Fonts/Paneuropa_Road.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+html, body, h1, h2, h3, h4, h5, h6, p, a {
+    font-family: 'Paneuropa Road';
+}
+
+.navbar {
+    width: 935px;
+    left: 195px;
+}
+
+.nLink1 {
+    font-size: 20px;
+    transition: background-color 0.01s ease-out 1ms;
+    left: 10px;
+}
+
+.nLink1:hover {
+    background-color: lightgrey;
+    border-radius: 13px;
+}
+
+.nLink2 {
+    font-size: 20px;
+    transition: background-color 0.01s ease-out 1ms;
+    left: 35px;
+    top: 0px;
+}
+
+.nLink2:hover {
+    background-color: lightgrey;
+    border-radius: 13px;
+}
+
+.nLink3 {
+    font-size: 20px;
+    transition: background-color 0.01s ease-out 1ms;
+    left: 60px;
+}
+
+.nLink3:hover {
+    background-color: lightgrey;
+    border-radius: 13px;
+}
+
+.nLink4 {
+    font-size: 20px;
+    transition: background-color 0.01s ease-out 1ms;
+    left: 200px;
+}
+
+.nLink4:hover {
+    background-color: lightgrey;
+    border-radius: 13px;
+}
+
+.nLink5 {
+    font-size: 20px;
+    transition: background-color 0.01s ease-out 1ms;
+    left: 225px;
+}
+
+.nLink5:hover {
+    background-color: lightgrey;
+    border-radius: 13px
+}
+
+.nLink6 {
+    font-size: 20px;
+    transition: background-color 0.01s ease-out 1ms;
+    left: 245px;
+}
+
+.nLink6:hover {
+    background-color: lightgrey;
+    border-radius: 13px
+}
+
+.nLink7 {
+    font-size: 20px;
+    transition: background-color 0.01s ease-out 1ms;
+    left: 260px;
+}
+
+.nLink7:hover {
+    background-color: lightgrey;
+    border-radius: 13px
+}
+
+.nbLogo {
+    width: 100px;
+    height: 50px;
+    left: 140px;
+    transition: background-color 0.01s ease-out 1ms
+}
+
+.nbLogo:hover {
+    background-color: lightgrey;
+    border-radius: 13px
+}
+
+.card19 {
+    width: 270px;
+    height: 300px;
+    border-radius: 25px;
+    top: 100px;
+    left: 10px;
+}
+
+.picture11 {
+    height: 100px;
+    width: 270px;
+    border-radius: 25px 25px 0px 0px;
+    top: -17px;
+    left: -17px;
+}
+
+.heading19  {
+    left: 80px;
+}
+
+.card20 {
+    width: 270px;
+    height: 300px;
+    border-radius: 25px;
+    top: -200px;
+    left: 350px;
+}
+
+.heading20  {
+    left: 26px;
+}
+
+.picture12 {
+    width: 270px;
+    height: 100px;
+    border-radius: 25px 25px 0px 0px;
+    top: -17px;
+    left: -17px;
+}
+
+.card21 {
+    width: 270px;
+    height: 300px;
+    border-radius: 25px;
+    top: -500px;
+    left: 675px;
+}
+
+.heading21  {
+    left: 34px;
+}
+
+.picture13 {
+    width: 270px;
+    height: 100px;
+    border-radius: 25px 25px 0px 0px;
+    top: -17px;
+    left: -17px;
+}
+
+.card22 {
+    width: 270px;
+    height: 300px;
+    border-radius: 25px;
+    top: -800px;
+    left: 1000px;
+}
+
+.picture14 {
+    display: inline;
+    width: 270px;
+    height: 100px;
+    border-radius: 25px 25px 0px 0px;
+    top: -17px;
+    left: -17px;
+}
+.heading22  {
+    left: 70px;
+}
+
+
+.card23 {
+    width: 270px;
+    height: 300px;
+    border-radius: 25px;
+    top: -755px;
+    left: 520px;
+}
+
+.picture15 {
+    display: inline;
+    width: 270px;
+    height: 100px;
+    border-radius: 25px 25px 0px 0px;
+    top: -17px;
+    left: -17px;
+}
+
+.heading23  {
+    left: 36px;
+}
+
+footer {
+    height: 66px;
+    width: 935px;
+    top: -32px;
+    left: 195px;
+}
+
+.text3 {
+    font-size: 20px;
+    top: 21px;
+    left: 10px;
+}
+
+.ftLogo {
+    height: 50px;
+    width: 100px;
+    top: -39px;
+    left: 10px;
+    transition: background-color 0.01s ease-out 1ms
+}
+
+.text4 {
+    display: inline-block;
+    font-size: 20px;
+    top: -33px;
+    left: 180px;
+}
+
+.ftLogo:hover {
+    background-color: lightgrey;
+    border-radius: 13px
+}
+
+
+.twLogo {
+    width: 50px;
+    height: 50px;
+    top: -38px;
+    left: 630px;
+    border-radius: 19px;
+    transition: background-color 0.01s ease-out 1ms
+}
+
+.twLogo:hover {
+    background-color: lightgrey;
+    border-radius: 13px
+}
+
+
+.igLogo {
+    width: 50px;
+    height: 50px;
+    top: -38px;
+    left: 620px;
+    transition: background-color 0.01s ease-out 1ms
+}
+
+.igLogo:hover {
+    background-color: lightgrey;
+    border-radius: 13px
+}
+
+
+.fbLogo {
+    width: 43px;
+    height: 43px;
+    top: -38px;
+    left: 610px;
+    border-radius: 9px;
+    transition: background-color 0.01s ease-out 1ms
+}
+
+.fbLogo:hover {
+    background-color: lightgrey;
+    border-radius: 13px;
+}

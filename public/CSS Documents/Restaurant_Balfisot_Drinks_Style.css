@@ -1,0 +1,313 @@
+body {
+    background-image: url("/Pictures/Restaurant_Balfisot_Drinks_Wallpaper.jpg");
+    background-size: 1280px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-x: hidden;
+}
+
+@font-face {
+    font-family: 'Paneuropa Road';
+    src: url('/Fonts/Paneuropa_Road.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+html, body, h1, h2, h3, h4, h5, h6, p, a {
+    font-family: 'Paneuropa Road';
+}
+
+.navbar {
+    width: 935px;
+    left: 195px;
+}
+
+.nLink1 {
+    font-size: 20px;
+    transition: background-color 0.01s ease-out 1ms;
+    left: 10px;
+}
+
+.nLink1:hover {
+    background-color: lightgrey;
+    border-radius: 13px;
+}
+
+.nLink2 {
+    font-size: 20px;
+    transition: background-color 0.01s ease-out 1ms;
+    left: 35px;
+    top: 0px;
+}
+
+.nLink2:hover {
+    background-color: lightgrey;
+    border-radius: 13px;
+}
+
+.nLink3 {
+    font-size: 20px;
+    transition: background-color 0.01s ease-out 1ms;
+    left: 60px;
+}
+
+.nLink3:hover {
+    background-color: lightgrey;
+    border-radius: 13px;
+}
+
+.nLink4 {
+    font-size: 20px;
+    transition: background-color 0.01s ease-out 1ms;
+    left: 200px;
+}
+
+.nLink4:hover {
+    background-color: lightgrey;
+    border-radius: 13px;
+}
+
+.nLink5 {
+    font-size: 20px;
+    transition: background-color 0.01s ease-out 1ms;
+    left: 225px;
+}
+
+.nLink5:hover {
+    background-color: lightgrey;
+    border-radius: 13px
+}
+
+.nLink6 {
+    font-size: 20px;
+    transition: background-color 0.01s ease-out 1ms;
+    left: 245px;
+}
+
+.nLink6:hover {
+    background-color: lightgrey;
+    border-radius: 13px
+}
+
+.nLink7 {
+    font-size: 20px;
+    transition: background-color 0.01s ease-out 1ms;
+    left: 260px;
+}
+
+.nLink7:hover {
+    background-color: lightgrey;
+    border-radius: 13px
+}
+
+.nbLogo {
+    width: 100px;
+    height: 50px;
+    left: 140px;
+    transition: background-color 0.01s ease-out 1ms
+}
+
+.nbLogo:hover {
+    background-color: lightgrey;
+    border-radius: 13px
+}
+
+.card34 {
+    width: 270px;
+    height: 300px;
+    border-radius: 25px;
+    top: 100px;
+    left: 10px;
+}
+
+.picture25 {
+    height: 100px;
+    width: 270px;
+    border-radius: 25px 25px 0px 0px;
+    top: -17px;
+    left: -17px;
+}
+
+.heading34  {
+    left: 70px;
+}
+
+.text49 {
+    left: 7px;
+}
+
+.card35 {
+    width: 270px;
+    height: 300px;
+    border-radius: 25px;
+    top: -200px;
+    left: 350px;
+}
+
+.picture26 {
+    width: 270px;
+    height: 100px;
+    border-radius: 25px 25px 0px 0px;
+    top: -17px;
+    left: -17px;
+}
+
+.heading35  {
+    left: 67px;
+}
+
+.text50 {
+    left: 8px;
+}
+
+.card36 {
+    width: 270px;
+    height: 300px;
+    border-radius: 25px;
+    top: -500px;
+    left: 675px;
+}
+
+.picture27 {
+    width: 270px;
+    height: 100px;
+    border-radius: 25px 25px 0px 0px;
+    top: -17px;
+    left: -17px;
+}
+
+.heading36  {
+    left: 80px;
+}
+
+.text51 {
+    left: 4px;
+}
+
+.card37 {
+    width: 270px;
+    height: 300px;
+    border-radius: 25px;
+    top: -800px;
+    left: 1000px;
+}
+
+.picture28 {
+    display: inline;
+    width: 270px;
+    height: 100px;
+    border-radius: 25px 25px 0px 0px;
+    top: -17px;
+    left: -17px;
+}
+
+.heading37  {
+    left: 90px;
+}
+
+.text52 {
+    left: 8px;
+}
+
+.card38 {
+    width: 270px;
+    height: 300px;
+    border-radius: 25px;
+    top: -755px;
+    left: 520px;
+}
+
+.picture29 {
+    display: inline;
+    width: 270px;
+    height: 100px;
+    border-radius: 25px 25px 0px 0px;
+    top: -17px;
+    left: -17px;
+}
+
+.heading38  {
+    left: 14px;
+}
+
+.text53 {
+    left: 12px;
+}
+
+footer {
+    height: 66px;
+    width: 935px;
+    top: -32px;
+    left: 195px;
+}
+
+.text3 {
+    font-size: 20px;
+    top: 21px;
+    left: 10px;
+}
+
+.ftLogo {
+    height: 50px;
+    width: 100px;
+    top: -39px;
+    left: 10px;
+    transition: background-color 0.01s ease-out 1ms
+}
+
+.text4 {
+    display: inline-block;
+    font-size: 20px;
+    top: -33px;
+    left: 180px;
+}
+
+.ftLogo:hover {
+    background-color: lightgrey;
+    border-radius: 13px
+}
+
+
+.twLogo {
+    width: 50px;
+    height: 50px;
+    top: -38px;
+    left: 630px;
+    border-radius: 19px;
+    transition: background-color 0.01s ease-out 1ms
+}
+
+.twLogo:hover {
+    background-color: lightgrey;
+    border-radius: 13px
+}
+
+
+.igLogo {
+    width: 50px;
+    height: 50px;
+    top: -38px;
+    left: 620px;
+    transition: background-color 0.01s ease-out 1ms
+}
+
+.igLogo:hover {
+    background-color: lightgrey;
+    border-radius: 13px
+}
+
+
+.fbLogo {
+    width: 43px;
+    height: 43px;
+    top: -38px;
+    left: 610px;
+    border-radius: 9px;
+    transition: background-color 0.01s ease-out 1ms
+}
+
+.fbLogo:hover {
+    background-color: lightgrey;
+    border-radius: 13px;
+}

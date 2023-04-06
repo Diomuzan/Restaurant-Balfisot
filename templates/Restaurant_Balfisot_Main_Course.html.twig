@@ -1,0 +1,80 @@
+{% extends "Restaurant_Balfisot_Main_Course_Base.html.twig" %}
+
+{% block body %}
+
+    <nav class="navbar navbar-expand-lg body-tertiary position-relative">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link text-light list-unstyled position-relative nLink1" href="{{ path("Categories") }}">Categories</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light list-unstyled position-relative nLink2 " href="{{ path("Register") }}">Register</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light list-unstyled position-relative nLink3" href="{{ path("Profile") }}">Profile</a>
+                    </li>
+                    <a href= "{{ path('Home') }}"><img class= "nbLogo position-relative" src="/Pictures/Restaurant_Balfisot_Logo_(Picture_version).png"></a>
+                    <li class="nav-item">
+                        <a class="nav-link text-light list-unstyled position-relative nLink4" href="{{ path("Order") }}">Order</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link  text-light list-unstyled position-relative nLink5" href="{{ path("Orders") }}">Orders</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link  text-light list-unstyled position-relative nLink6" href="{{ path("Contact") }}">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light list-unstyled position-relative nLink7" href="{{ path("About Us") }}">About Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    {% for maincourse in mainCourse  %}
+{% set cardClass = cycle(['card14', 'card15', 'card16', 'card17', 'card18'], loop.index0) %}
+<a class= "text-decoration-none text-dark" href="{{ path('Order') }}">
+    <div class="card {{ cardClass }}">
+        <div class="card-body">
+             {% if maincourse.name == 'Eggplant kebab' %}
+                  <img class= "picture6 position-relative"  src= "{{ asset('Pictures/Eggplant_kebab.jpg') }}">
+                  {% elseif maincourse.name == 'Chickpea wrap' %}
+                  <img class= "picture7 position-relative" src= "{{ asset('Pictures/Chickpea_wrap.jpg') }}">
+                  {% elseif maincourse.name == 'Cooked okra' %}
+                   <img class= "picture8 position-relative" src= "{{ asset('Pictures/Cooked_okra.jpg') }}">
+                    {% elseif maincourse.name == 'Lahmacun' %}
+                   <img class= "picture9 position-relative" src= "{{ asset('Pictures/Lahmacun.jpg') }}">
+                    {% elseif maincourse.name == 'Çiğköfte' %}
+                   <img class= "picture10 position-relative" src= "{{ asset('Pictures/Ciğköfte.jpg') }}">
+                    {% endif %}
+       {% set textClass = cycle(['heading14', 'heading15', 'heading16', 'heading17', 'heading18'], loop.index0) %}
+                            <h2 class="{{ textClass }} position-relative">{{ maincourse.name }}</h2>
+           {% set descriptionClass = cycle(['text19', 'text20', 'text21', 'text22', 'text23'], loop.index0) %}
+                        <p class= "{{ descriptionClass }} position-relative">{{ maincourse.description }}</p>
+            {% set priceClass = cycle(['text24', 'text25', 'text26', 'text27', 'text28'], loop.index0) %}
+            <p class= "{{ priceClass }} position-relative">{{ maincourse.price }}</p>
+        </div>
+    </div>
+</a>
+{% endfor %}
+
+
+
+
+
+
+    <footer class= "footer position-relative">
+        <p class= "text3 text-light position-relative">©</p>
+        <p class= "text4 text-light position-relative">2023</p>
+        <img class= "ftLogo position-relative" src="/Pictures/Restaurant_Balfisot_Logo_(Picture_version).png">
+        <a href="https://www.facebook.com/"><img class= "fbLogo position-relative" src= "Pictures/FBLogo.png"></a>
+        <a href="https://www.instagram.com/"><img class= "igLogo position-relative" src= "Pictures/IGLogo.png"></a>
+        <a href= "https://twitter.com/home"><img class= "twLogo position-relative" src="Pictures/TWLogo.png"></a>
+    </footer>
+
+{% endblock %}

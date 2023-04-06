@@ -1,0 +1,67 @@
+{% extends "Restaurant_Balfisot_Contact_Base.html.twig" %}
+
+{% block body %}
+
+    <nav class="navbar navbar-expand-lg body-tertiary position-relative">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link text-light llist-unstyled position-relative nLink1" href="{{ path("Categories") }}">Categories</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light list-unstyled position-relative nLink2 " href="{{ path("Register") }}">Register</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light list-unstyled position-relative nLink3" href="{{ path("Profile") }}">Profile</a>
+                    </li>
+                    <a href= "{{ path('Home') }}"><img class= "nbLogo position-relative" src="/Pictures/Restaurant_Balfisot_Logo_(Picture_version).png"></a>
+                    <li class="nav-item">
+                        <a class="nav-link text-light list-unstyled position-relative nLink4" href="{{ path("Order") }}">Order</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link  text-light list-unstyled position-relative nLink5" href="{{ path("Orders") }}">Orders</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link  text-light list-unstyled position-relative nLink6" href="{{ path("Contact") }}">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light list-unstyled position-relative nLink7" href="{{ path("About Us") }}">About Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="card card2 position-relative">
+        <div class="card-body">
+            <h1 class= "heading2 position-relative">Contact</h1>
+            <h5 class= "text5 position-relative">It's good that you contact us, let's see what we can do for you!</h5>
+            <a href= "https://www.google.nl/maps/place/Ul.+Rade+Kon%C4%8Dara+15,+52440,+Pore%C4%8D,+Kroati%C3%AB/@45.2208545,13.5938749,17z/data=!4m6!3m5!1s0x477c97a05587a11f:0x127e8ea29bf19bfc!8m2!3d45.2208507!4d13.5960636!16s%2Fg%2F11mtr6lf3q"><svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-geo-alt-fill adressIcon position-relative text-decoration-none" viewBox="0 0 16 16">
+                <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
+            </svg></a>
+            <h5 class= "text6 position-relative">Ulica Rade Končara 15, 52240 Poreč</h5>
+            <a href= "tel:+3855242188"><svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-telephone-fill phoneIcon position-relative" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
+            </svg></a>
+            <h5 class= "text7 position-relative">+3855242188</h5>
+            <a href= "mailto:info@restaurant.balfisot.com"><svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-envelope-fill emailIcon position-relative" viewBox="0 0 16 16">
+                <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z"/>
+            </svg></a>
+            <h5 class= "text8 position-relative">info@restaurant.balfisot.com</h5>
+        </div>
+    </div>
+
+    <footer class= "footer position-relative">
+        <p class= "text3 text-light position-relative">©</p>
+        <p class= "text4 text-light position-relative">2023</p>
+        <img class= "ftLogo position-relative" src="/Pictures/Restaurant_Balfisot_Logo_(Picture_version).png">
+        <a href="https://www.facebook.com/"><img class= "fbLogo position-relative" src= "Pictures/FBLogo.png"></a>
+        <a href="https://www.instagram.com/"><img class= "igLogo position-relative" src= "Pictures/IGLogo.png"></a>
+        <a href= "https://twitter.com/home"><img class= "twLogo position-relative" src="Pictures/TWLogo.png"></a>
+    </footer>
+
+{% endblock %}
